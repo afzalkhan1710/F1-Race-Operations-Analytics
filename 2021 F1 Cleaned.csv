@@ -1,0 +1,45 @@
+Result Id,raceId,grand prix,driverId,driver ref,number,code,constructorId,number,grid,position,positionText,positionOrder,points,laps,time,milliseconds,fastestLap,rank,fastestLapTime,fastestLapSpeed,statusId,clean air flag
+24966,1052,Bahrain Grand Prix,1,hamilton,44,HAM,131,44,2,1,1,1,25,56,32:03.9,5523897,44,4,01:34.0,207.235,1,Clean
+24967,1052,Bahrain Grand Prix,830,max_verstappen,33,VER,9,33,1,2,2,2,18,56,0.745,5524642,41,2,01:33.2,208.984,1,Clean
+24986,1053,Emilia Romagna Grand Prix,830,max_verstappen,33,VER,9,33,3,1,1,1,25,63,02:34.6,7354598,60,2,01:17.5,227.96,1,Clean
+24987,1053,Emilia Romagna Grand Prix,1,hamilton,44,HAM,131,44,1,2,2,2,19,63,22,7376598,60,1,01:16.7,230.403,1,Clean
+25006,1054,Portuguese Grand Prix,1,hamilton,44,HAM,131,44,2,1,1,1,25,66,34:31.4,5671421,47,4,01:20.9,206.971,1,Clean
+25007,1054,Portuguese Grand Prix,830,max_verstappen,33,VER,9,33,3,2,2,2,18,66,29.148,5700569,62,3,01:20.7,207.581,1,Clean
+25026,1055,Spanish Grand Prix,1,hamilton,44,HAM,131,44,1,1,1,1,25,66,33:07.7,5587680,54,5,01:20.7,208.64,1,Clean
+25027,1055,Spanish Grand Prix,830,max_verstappen,33,VER,9,33,2,2,2,2,19,66,15.841,5603521,62,1,01:18.1,215.357,1,Clean
+25046,1056,Monaco Grand Prix,830,max_verstappen,33,VER,9,33,2,1,1,1,25,78,38:56.8,5936820,58,6,01:14.6,160.929,1,Clean
+25052,1056,Monaco Grand Prix,1,hamilton,44,HAM,131,44,7,7,7,7,7,78,+1:08.231,6005051,69,1,01:12.9,164.769,1,Clean
+25080,1057,Azerbaijan Grand Prix,1,hamilton,44,HAM,131,44,2,15,15,15,0,51,17.668,8034078,43,3,01:44.8,206.27,1,Clean
+25083,1057,Azerbaijan Grand Prix,830,max_verstappen,33,VER,9,33,3,\N,R,18,0,45,\N,\N,44,1,01:44.5,206.839,3,DNF
+25086,1059,French Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,26,53,27:25.8,5245770,35,1,01:36.4,218.156,1,Clean
+25087,1059,French Grand Prix,1,hamilton,44,HAM,131,44,2,2,2,2,18,53,2.904,5248674,44,5,01:37.4,215.903,1,Clean
+25106,1058,Styrian Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,25,71,22:18.9,4938925,68,3,01:08.0,228.542,1,Clean
+25107,1058,Styrian Grand Prix,1,hamilton,44,HAM,131,44,2,2,2,2,19,71,35.743,4974668,71,1,01:07.1,231.811,1,Clean
+25126,1060,Austrian Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,26,71,23:54.5,5034543,62,1,01:06.2,234.815,1,Clean
+25129,1060,Austrian Grand Prix,1,hamilton,44,HAM,131,44,4,4,4,4,12,71,46.452,5080995,55,3,01:08.1,228.177,1,Clean
+25146,1061,British Grand Prix,1,hamilton,44,HAM,131,44,2,1,1,1,25,52,58:23.3,7103284,45,2,01:29.7,236.43,1,Clean
+25165,1061,British Grand Prix,830,max_verstappen,33,VER,9,33,1,\N,R,20,0,0,\N,\N,\N,0,,\N,4,DNF
+25167,1062,Hungarian Grand Prix,1,hamilton,44,HAM,131,44,1,2,2,2,18,70,2.736,7485935,49,2,01:18.7,200.363,1,Clean
+25174,1062,Hungarian Grand Prix,830,max_verstappen,33,VER,9,33,3,9,9,9,2,70,+1:20.244,7563443,43,4,01:20.9,194.843,1,Clean
+25186,1063,Belgian Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,12.5,1,03:27.1,207071,\N,0,\N,\N,1,Clean
+25188,1063,Belgian Grand Prix,1,hamilton,44,HAM,131,44,3,3,3,3,7.5,1,2.601,209672,\N,0,\N,\N,1,Clean
+25206,1064,Dutch Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,25,72,30:05.4,5405395,60,3,01:13.3,209.244,1,Clean
+25207,1064,Dutch Grand Prix,1,hamilton,44,HAM,131,44,2,2,2,2,19,72,20.932,5426327,72,1,01:11.1,215.654,1,Clean
+25242,1065,Italian Grand Prix,1,hamilton,44,HAM,131,44,4,\N,R,17,0,25,\N,\N,3,14,01:25.9,242.864,4,DNF
+25243,1065,Italian Grand Prix,830,max_verstappen,33,VER,9,33,1,\N,R,18,0,25,\N,\N,25,5,01:25.2,244.852,4,DNF
+25246,1066,Russian Grand Prix,1,hamilton,44,HAM,131,44,4,1,1,1,25,53,30:41.0,5441001,43,2,01:37.6,215.76,1,Clean
+25247,1066,Russian Grand Prix,830,max_verstappen,33,VER,9,33,20,2,2,2,18,53,53.271,5494272,28,5,01:38.4,213.959,1,Clean
+25267,1067,Turkish Grand Prix,830,max_verstappen,33,VER,9,33,2,2,2,2,18,58,14.584,5478687,53,9,01:32.8,207.169,1,Clean
+25270,1067,Turkish Grand Prix,1,hamilton,44,HAM,131,44,11,5,5,5,10,58,41.812,5505915,52,10,01:32.8,207.16,1,Clean
+25286,1069,United States Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,25,56,34:36.6,5676552,52,2,01:39.1,200.278,1,Clean
+25287,1069,United States Grand Prix,1,hamilton,44,HAM,131,44,2,2,2,2,19,56,1.333,5677885,41,1,01:38.5,201.521,1,Clean
+25306,1070,Mexico City Grand Prix,830,max_verstappen,33,VER,9,33,3,1,1,1,25,71,38:39.1,5919086,52,2,01:19.0,196.134,1,Clean
+25307,1070,Mexico City Grand Prix,1,hamilton,44,HAM,131,44,2,2,2,2,18,71,16.555,5935641,66,4,01:19.8,194.116,1,Clean
+25326,1071,São Paulo Grand Prix,1,hamilton,44,HAM,131,44,10,1,1,1,25,71,32:22.9,5542851,46,2,01:12.0,215.503,1,Clean
+25327,1071,São Paulo Grand Prix,830,max_verstappen,33,VER,9,33,2,2,2,2,18,71,10.496,5553347,47,3,01:12.5,214.005,1,Clean
+25346,1051,Qatar Grand Prix,1,hamilton,44,HAM,131,44,1,1,1,1,25,57,24:28.5,5068471,50,2,01:25.1,227.633,1,Clean
+25347,1051,Qatar Grand Prix,830,max_verstappen,33,VER,9,33,7,2,2,2,19,57,25.743,5094214,57,1,01:23.2,232.799,1,Clean
+25366,1072,Saudi Arabian Grand Prix,1,hamilton,44,HAM,131,44,1,1,1,1,26,50,06:15.1,7575118,47,1,01:30.7,244.962,1,Clean
+25367,1072,Saudi Arabian Grand Prix,830,max_verstappen,33,VER,9,33,3,2,2,2,18,50,11.825,7586943,35,3,01:31.5,242.943,1,Clean
+25386,1073,Abu Dhabi Grand Prix,830,max_verstappen,33,VER,9,33,1,1,1,1,26,58,30:17.3,5417345,39,1,01:26.1,220.8,1,Clean
+25387,1073,Abu Dhabi Grand Prix,1,hamilton,44,HAM,131,44,2,2,2,2,18,58,2.256,5419601,43,3,01:26.6,219.495,1,Clean
