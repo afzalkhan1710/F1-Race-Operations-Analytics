@@ -1,21 +1,39 @@
-# F1-Race-Operations-Analytics
-Analyzing the 2021 F1 title battle through the lens of supply chain operations. A Power BI &amp; Excel portfolio project modeling pace deltas, asset lifecycle (tyre degradation), and pit-lane efficiency.
-# F1 Operations Control Tower: The 2021 Title Battle
+#  2021 F1 Telemetry & Championship Analysis: Hamilton vs. Verstappen
 
-**A data-driven analysis of high-speed logistics, asset lifecycle management, and strategic execution.**
+![F1 Dashboard Preview](dashboard.png) 
+## Project Overview
+The 2021 Formula 1 season featured one of the tightest championship battles in the sport's history between Lewis Hamilton and Max Verstappen. This project leverages **Power BI** to move beyond basic points tracking and dive into the actual telemetry. By calculating the true, per-lap average racing pace and comparing it to cumulative championship points, this dashboard visually proves exactly how raw speed translated into the final standings.
 
-### Executive Summary
-Formula 1 is the ultimate high-speed supply chain. This project analyzes the telemetry and operational efficiency of the historic 2021 rivalry between Mercedes (Lewis Hamilton) and Red Bull Racing (Max Verstappen). By treating race operations as a corporate logistics challenge, this dashboard tracks asset lifecycle (tyre degradation), operational bottlenecks (pit stop efficiency), and comparative throughput (race pace delta). 
+## Technical Stack & Data Engineering
+*   **Tool:** Power BI Desktop (DAX, Power Query)
+*   **Data Modeling:** Star Schema relationship established between the core telemetry fact table (`2021 F1 Cleaned`) and the dimensional calendar table (`races`).
+*   **Data Transformation:** Filtered raw millisecond race durations to isolate competitive racing conditions. Implemented **"Clean Air"** logic to remove outliers like DNFs (Did Not Finish) and extremely slow safety car laps, ensuring a highly accurate performance comparison.
 
-This repository demonstrates the application of core Logistics and Supply Chain Management principles to massive datasets, translating raw telemetry into actionable business intelligence.
+## Key Features & Insights
+1.  **Lap-by-Lap Pace Battle:** An inverted Y-axis line chart tracking the true average lap time (in seconds) for each driver across the 22-race calendar.
+2.  **Cumulative Points Area Chart:** A running total visualization demonstrating the momentum shifts throughout the season.
+3.  **Executive KPI Scoreboard:** Dynamic "Tale of the Tape" cards summarizing final points, total wins, and overall season average pace.
 
-### Tech Stack & Methodologies
-*   **Data Aggregation & Validation:** Microsoft Excel (XLOOKUP, cross-workbook relational mapping).
-*   **Data Transformation:** Power Query (M).
-*   **Data Modeling:** Power BI (Star Schema design with 1:* dimensional relationships).
-*   **Advanced Analytics:** DAX (rolling averages, dynamic pacing deltas).
+## Core DAX Measures Highlight
 
-### Key Business Deliverables
-*   **Pace Delta Analysis:** Tracking micro-variances in competitive performance across 22 operational intervals (races).
-*   **Asset Degradation Modeling:** Identifying the exact drop-off point for high-stress assets (tyres) to optimize strategic replacement.
-*   **Pit-Lane Efficiency:** Measuring operational turnaround times and crew consistency under extreme pressure.
+**1. True Average Racing Pace (Sec)**
+Calculates the accurate per-lap speed by dividing the total race duration (converted to seconds) by the total laps completed, applying the filter context for competitive laps only.
+```dax
+Average Racing Pace(Sec) = 
+AVERAGEX(
+    FILTER('2021 F1 Cleaned', '2021 F1 Cleaned'[clean air flag] = "Clean"), 
+    ('2021 F1 Cleaned'[milliseconds] / 1000) / '2021 F1 Cleaned'[laps]
+).
+```
+**2. Cumulative Championship Points
+Generates a running total of points that dynamically updates round-by-round to visualize the championship timeline.
+```dax
+Cumulative Points = 
+CALCULATE(
+    SUM('2021 F1 Cleaned'[points]),
+    FILTER(
+        ALL('races'),
+        'races'[round] <= MAX('races'[round])
+    )
+)
+```
