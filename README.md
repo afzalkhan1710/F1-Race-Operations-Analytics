@@ -1,6 +1,6 @@
 #  2021 F1 Telemetry & Championship Analysis: Hamilton vs. Verstappen
 
-![F1 Dashboard Preview](dashboard.png) 
+![F1 Dashboard Preview](Dashboard.png) 
 ## Project Overview
 The 2021 Formula 1 season featured one of the tightest championship battles in the sport's history between Lewis Hamilton and Max Verstappen. This project leverages **Power BI** to move beyond basic points tracking and dive into the actual telemetry. By calculating the true, per-lap average racing pace and comparing it to cumulative championship points, this dashboard visually proves exactly how raw speed translated into the final standings.
 
